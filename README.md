@@ -12,13 +12,15 @@ Adding unlimited task to the board.
 Retrieving list of all task.
 
 The users can add a task to the board 
-by entering the following criteria:
+by entering the following criteria:  
+
   ---Title---    
   ---DueDate---    
   ---Discription---    
   ---Category---
   
-The following API Routes include a discription of each route functions:
-~ ~ @GetMapping(value = "/TaskBoard/Task") - Retrieves a list of all Tasks from the board.
-~ ~ @PostMapping(value= "/TaskBoard/addTask") - User can add a task to the board.
-~ ~ @GetMapping(value = "/TaskBoard/category/{category}") - Retrieves a list of all Task under selected category.
+The following API Routes include a discription of each route functions:---------------------------------------------------------------
+
+~ ~ @GetMapping(value = "/TaskBoard/Task") - Retrieves a list of all Tasks from the board.                            
+~ ~ @PostMapping(value= "/TaskBoard/addTask") - User can add a task to the board.                                     
+~ ~ @GetMapping(value = "/TaskBoard/category/{category}") - Retrieves a list of all Task under selected category.                     
